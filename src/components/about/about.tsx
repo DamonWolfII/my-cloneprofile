@@ -6,7 +6,7 @@ export default function About(){
                     <span className="text-lg font-bold mb-3 text-blue-600">
                         ABOUT ME
                     </span>
-                    <h2 className="text-5xl font-bold pr-0 mb-5 m-0 block">Better design,better experience</h2>
+                    <h2 className="text-5xl font-bold pr-0 mb-5 m-0 block w-[470px]">Better design, better experience</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui ligula, malesuada vel convallis in, tincidunt ut mi Vestibulum sit amet.</p>
                 </div>
                 <div>

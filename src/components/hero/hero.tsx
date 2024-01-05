@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Hero(){
     return(
-        <div className="relative ">
+        <div className="relative  top-9">
             <div className="container  mx-auto px-4 my-8 ">
                 <div className="flex col-2 pt-4">
                     <div className="w-1/2 px-4 self-center">
