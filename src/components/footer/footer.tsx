@@ -6,7 +6,7 @@ import { Linkedin } from 'lucide-react';
 export default function Footer(){
     return(
         <footer className="pb-12  z-10 relative block bg-slate-900 pt-24">
-            <div className="container  mx-auto px-4 py-15">
+            <div className="container z-10 mx-auto px-4 py-15">
                 <div className="flex  -mx-4">
                     <div className="w-2/6 px-4 block">
                         <div className="mb-10">
@@ -51,17 +51,17 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-                <div className="mt-10 pt-12 border-t-2 border-gray-400">
+                <div className="mt-10 pt-12 border-t-2 border-gray-400 z-10">
                     <div className="justify-center items-center flex mb-5 gap-5">
                         <div className='w-8 h-8 rounded-full  text-blue-700  bg-gray-400 justify-center items-center flex'><Facebook /></div>
                         <div className='w-8 h-8 rounded-full  text-blue-500  bg-gray-400 justify-center items-center flex'> <Twitter /></div>
                         <div className='w-8 h-8 rounded-full  text-red-700  bg-gray-400 justify-center items-center flex'><Youtube /></div>
                         <div className='w-8 h-8 rounded-full  text-blue-600  bg-gray-400 justify-center items-center flex'><Linkedin /></div>
                     </div>
-                    <p className=' text-gray-400 text-center font-medium text-base m-0'>All rights reserved by &#169; Portfolio creative 2024 </p>
+                    <p className='z-10 text-gray-400 text-center font-medium text-base m-0'>All rights reserved by &#169; Portfolio creative 2024 </p>
                 </div>
             </div>
-            <div className='bottom-0 left-0 absolute'>
+            <div className='bottom-0 left-0 absolute '>
                 <span className='hidden'>Shape</span>
                 <svg width={200} height={200} viewBox='0 0 143 138' fill='none'>
                     <circle cx={25} cy={118} r={115} className='fill-blue-900' />

@@ -4,11 +4,11 @@ export default function Menu(){
     return(
         <div className='py-0  w-full flex-1 justify-between'>
             <ul className='flex '>
-                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#'>Home</Link></li>
-                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#'>About</Link></li>
-                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#'>Services</Link></li>
-                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#'>Resume</Link></li>
-                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#'>Contact</Link></li>
+                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#home'>Home</Link></li>
+                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#about'>About</Link></li>
+                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#services'>Services</Link></li>
+                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#resume'>Resume</Link></li>
+                <li className="relative"><Link className="pl-4 inline-flex  text-base ml-8" href='#contact'>Contact</Link></li>
             </ul>
         </div>
     )

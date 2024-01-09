@@ -1,6 +1,6 @@
 export default function Contact(){
     return(
-        <div className="bg-gray-100">
+        <div id="contact" className="bg-gray-100">
             <div className=" container  mx-auto px-4  py-32">
                 <div className="block ">
                     <div className="flex flex-wrap -mx-4">

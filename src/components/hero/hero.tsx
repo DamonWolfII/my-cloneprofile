@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 export default function Hero(){
     return(
-        <div className="relative z-0 top-9">
+        <div id="home" className="relative z-0 top-9">
             <div className="container  mx-auto px-4 my-8 ">
                 <div className="flex col-2 pt-4">
-                    <div className="w-1/2 px-4 self-center">
+                    <div className="w-1/2 px-4 self-center z-10">
                         <h1 className="text-blue-600/100 font-semibold text-base mb-3 ">Hey There 👋 I am 
                             <span className="mt-1 block font-bold text-stone-950/100 text-5xl">Daniel Jack</span>
                         </h1>

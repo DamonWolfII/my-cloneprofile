@@ -1,6 +1,6 @@
 export default function Resume(){
     return(
-        <div className="container  mx-auto px-4 py-20">
+        <div id="resume" className="container  mx-auto px-4 py-20">
             <div className=" flex flex-col items-center justify-center w-[600px] mx-auto pb-10">
                 <span className="mb-2 block font-semibold text-lg text-blue-600/100 text-center">Education & Experience</span>
                 <h2 className="mb-5 m-0 block text-center font-bold text-5xl">My Resume</h2>

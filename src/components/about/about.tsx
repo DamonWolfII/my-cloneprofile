@@ -5,7 +5,7 @@ import { Linkedin } from 'lucide-react';
 
 export default function About(){
     return(
-        <div className="container  mx-auto px-4 py-20  ">
+        <div id='about' className="container  mx-auto px-4 py-20  ">
             <div className="flex col-2">
                 <div className="w-1/2 px-4 mb-0">
                     <span className="text-lg font-bold mb-3 text-blue-600">

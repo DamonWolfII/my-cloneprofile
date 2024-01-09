@@ -4,7 +4,7 @@ import { UserSearch, FileStack, Users, FolderCog } from 'lucide-react';
 
 export default function Services(){
     return(
-        <div className="bg-gray-100">
+        <div id='services' className="bg-gray-100">
             <div className="container  mx-auto px-4 py-20 ">
                 <div className=" flex flex-col items-center justify-center w-[600px] mx-auto pb-10">
                     <span className="mb-2 block font-semibold text-lg text-blue-600/100 text-center">What I Offer?</span>
